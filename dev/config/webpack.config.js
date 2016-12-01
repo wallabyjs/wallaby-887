@@ -290,7 +290,7 @@ function webpackConfig(options) {
     devtool: (options.development || options.testing) ? '#inline-source-map' : false,
     module: {
       loaders,
-      // postcss,
+      postcss,
       preLoaders,
       noParse: [
         /(node_modules|bower_components|~)\/(min\.|jquery)\//gi,

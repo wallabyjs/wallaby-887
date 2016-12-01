@@ -1,5 +1,55 @@
 {
-  "presets": [
-    "es2015"
+  "presets": ["es2015"],
+  "retainLines": true,
+  "plugins": [
+    "transform-runtime", ["module-alias", [{
+      "src": "./bower_components/angular",
+      "expose": "angular"
+    }, {
+      "src": "./bower_components/angular-animate",
+      "expose": "angular-animate"
+    }, {
+      "src": "./bower_components/angular-elastic",
+      "expose": "angular-elastic"
+    }, {
+      "src": "./bower_components/angular-cookies",
+      "expose": "angular-cookies"
+    }, {
+      "src": "./bower_components/angular-sanitize",
+      "expose": "angular-messages"
+    }, {
+      "src": "./bower_components/angular-messages",
+      "expose": "angular-sanitize"
+    }, {
+      "src": "./bower_components/angular-touch",
+      "expose": "angular-touch"
+    }, {
+      "src": "./bower_components/ng-dialog",
+      "expose": "ng-dialog"
+    }, {
+      "src": "./bower_components/angularjs-slider/dist/rzslider",
+      "expose": "angular-rzslider"
+    }, {
+      "src": "./app/core/scripts",
+      "expose": "core"
+    }, {
+      "src": "./app/components/organisms",
+      "expose": "organisms"
+    }, {
+      "src": "./app/components/molecules",
+      "expose": "molecules"
+    },
+      {
+        "src": "./app/components/atoms",
+        "expose": "atoms"
+      },
+      {
+        "src": "./app/components/services",
+        "expose": "services"
+      },
+      {
+        "src": "./app/components/directives",
+        "expose": "directives"
+      }]]
   ]
 }
