@@ -1,0 +1,14 @@
+{
+  "name": "xxx",
+  "description": "XXX",
+  "main": "gulpfile.babel.js",
+  "authors": [
+    "XXX"
+  ],
+  "license": "XXX",
+  "homepage": "https://github.com/wallabyjs/wallaby-887",
+  "moduleType": [],
+  "dependencies": {
+    "angular": "^1.5.9"
+  }
+}
