@@ -1,5 +1,9 @@
-import angular from 'angular';
 
-it('should have angular', () => {
-  console.log(angular);
+
+describe('asdasd', () => {
+  beforeEach(inject(($controller) => {
+  }));
+  it('should have angular', () => {
+    console.log(angular);
+  });
 });
